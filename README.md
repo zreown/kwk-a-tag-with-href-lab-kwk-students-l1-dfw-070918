@@ -21,3 +21,4 @@ Once you have the HTML document open in your browser, you can make changes to it
 ## Resources
 
 * [W3S — HTML `<a>` Tag](https://www.w3schools.com/tags/tag_a.asp)
+<p data-visibility='hidden'>KWK-T1 Create an `<a>` Tag with an `href` Attribute</p>
