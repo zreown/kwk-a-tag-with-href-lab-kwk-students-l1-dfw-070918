@@ -1,8 +1,24 @@
 ---
 1: |
-  <<-MSG 
+  <<-MSG
+    expected: not nil
+    got: #{value.inspect}
+
+    Did you code an <a>Tag</a> in index.html?
   MSG
 
 2: |
-  <<-MSG 
+  <<-MSG
+    expected: "Kode with Klossy"
+    got: #{value.inspect}
+
+    Does your 'a' tag have exactly \"Kode with Klossy\" inside the opening and closing 'a' tags without quotation marks?
+  MSG
+
+3: |
+  <<-MSG
+    expected: "https://www.kodewithklossy.com"
+    got: #{value.inspect}
+
+    Does your 'a' tag have an 'href' attribute inside the opening tags set to "https://www.kodewithklossy.com/"?
   MSG

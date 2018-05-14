@@ -4,11 +4,31 @@
 
 1. Code an `a`nchor tag that defines an HTML hyperlink.
 
+## Introduction
+
+Do you know the Wikipedia link game? [The game is
+simple](https://en.wikipedia.org/wiki/Wikipedia:Getting_to_Philosophy) - choose
+any [Wikipedia page](https://en.wikipedia.org/wiki/Special:Random), and click
+the first link in the first paragraph of the page (ignoring pronunciation
+links). 97% of the time, if you click long enough, you'll end up at
+[Philosophy](https://en.wikipedia.org/wiki/Philosophy).  
+
+Links, (short for _hyperlink_) are what makes up the core of _hyper_ in _HyperText_ Markup
+Language. They allow the Google search engine to understand how web pages are
+related. Without them, we'd just have a bunch of stand alone pages of boring
+text making up the internet.
+
+Let's practice making these _link_ things. 
+
 ## Instructions
 
-Open `index.html` in your text editor. Add an `a` tag with the inner text of `Flatiron School` anywhere in the file. Then set the `href` attribute of your new link element to `https://flatironschool.com`.
+* Open `index.html` in your text editor.
+* Add an `a` tag with the inner text of `Kode with Klossy` anywhere in the file.
+* Set the `href` attribute of your new link element to `https://www.kodewithklossy.com/`.
 
-You can run the tests with this lab via `learn`. Make sure you save the file before running the test suite. Failing tests will provide helpful error messages that you can use to debug your code — read them closely for hints!
+You can run the tests with this lab via `learn`. Make sure you save the file
+before running the test suite. Failing tests will provide helpful error messages
+that you can use to debug your code — read them closely for hints!
 
 ## Viewing your work in the browser
 
